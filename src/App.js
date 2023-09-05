@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <input placeholder="asdasd" />
       </header>
     </div>
   );
