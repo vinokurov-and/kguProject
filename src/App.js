@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>Кнопка 1</button>
+        <button>создать</button>
       </header>
     </div>
   );
