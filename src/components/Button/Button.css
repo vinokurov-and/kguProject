@@ -1,0 +1,19 @@
+
+.blue-button {
+    background-color: rgb(69,110,155);
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight:normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  
