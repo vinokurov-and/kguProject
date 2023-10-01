@@ -9,10 +9,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>создать</button>
+        
       </header>
     </div>
   );
 }
 
 export default App;
+
