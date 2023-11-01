@@ -1,4 +1,4 @@
-h1{  /* Параметры текста 1 стр */
+footer h1 {  /* Параметры текста 1 стр */
     color: rgb(255, 255, 255);
     font-size: medium;
     font-weight: normal;
@@ -7,7 +7,7 @@ h1{  /* Параметры текста 1 стр */
     text-indent: 15%;
     line-height: 150%;
 }
-h2{  /* Параметры текста 2 стр */
+footer h2 {  /* Параметры текста 2 стр */
     color: rgb(255, 255, 255);
     font-size: medium;
     font-weight: normal;
@@ -17,7 +17,7 @@ h2{  /* Параметры текста 2 стр */
     line-height: 0%;
 }
 
-body{
+footer{
     background-color: #282c34; /* Цвет заднего фона */
 }
 
