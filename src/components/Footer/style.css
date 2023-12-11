@@ -1,0 +1,23 @@
+footer h1 {  /* Параметры текста 1 стр */
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-indent: 15%;
+    line-height: 150%;
+}
+
+footer{
+    background-color: #282c34; /* Цвет заднего фона */
+}
+
+.line {
+border-bottom: 1px solid rgb(255, 255, 255); /* Параметры линии */
+width: 98%;
+position: absolute;
+left: 1%;
+}
+
+
