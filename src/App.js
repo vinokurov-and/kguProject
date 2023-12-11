@@ -1,21 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import { Header } from './components/Header';
+import { SocialIcons } from './components/SocialIcons';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
+      <Header>
+        <div>        
+        </div>
+      <SocialIcons />
+      </Header>
       <Footer />
     </div>
   );
 }
 
 export default App;
-
