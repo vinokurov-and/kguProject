@@ -9,7 +9,7 @@ export const Header = ({children}) => {
   // Возвращаю JSX, который представляет кнопку
   return (
     <header className="header">
-      {children}
+      {children}            
     </header>
   );
 };

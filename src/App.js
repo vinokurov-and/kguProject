@@ -1,14 +1,18 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import { Header } from './components/Header';
-import { LoadingIndicator } from './components/LoadingIndicator/LoadingIndicator';
-import { BackButton } from './components/BackButton/BackButton';
+import { Logo } from './components/Logo'
+import { SocialIcons } from './components/SocialIcons';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <LoadingIndicator />      
-      <BackButton />   
+    <div className="App"
+      <Header>
+      <Logo/>     
+      <SocialIcons />
+      </Header>
+      <Footer />
     </div>
   );
 }
