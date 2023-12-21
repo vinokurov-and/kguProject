@@ -1,0 +1,23 @@
+import "./style.css";
+
+const obj = {
+    1: {
+        start: '10:00',
+        end: '12:05'
+    },
+    2: {
+
+    }
+}
+
+number = 1
+const Para = ({number}) => {
+
+
+
+    return (
+        <div>
+          <h1>{obj[number].start}</h1> - <h1>obj[number].end</h1>
+        </div>
+      );
+}
