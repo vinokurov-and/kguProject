@@ -9,3 +9,10 @@ export const INSTITUTES = {
     "i_fil": { title: "Институт филологии и массмедиа" },
     "med_i": { title: "Медицинский институт" }
   };
+
+const DATA = Object.keys(INSTITUTES).map((key)=>{
+  return {
+    titles: INSTITUTES[key].title,
+    items: INSTITUTES[key].groups,
+  }
+});
