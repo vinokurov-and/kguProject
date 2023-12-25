@@ -14,7 +14,7 @@ export const Para = ({ number }) => {
         },
         4: {
             start: '14:10',
-            end: '15:45'
+            end: '15:45' 
         },
         5: {
             start: '15:55',
