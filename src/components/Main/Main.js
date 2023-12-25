@@ -5,7 +5,7 @@ import React from 'react';
 import styles from './Main.css';
 
 // Создаю компонент "Main" и экспортирую
-const Main = ({ title, content }) => {
+const Main = ({ content }) => {
   return (
     <div className={styles.main}>
       <div>{content}</div>
