@@ -8,8 +8,7 @@ import styles from './Main.css';
 const Main = ({ title, content }) => {
   return (
     <div className={styles.main}>
-      <h1>{title}</h1>
-      <p>{content}</p>
+      <div>{content}</div>
     </div>
   );
 };
