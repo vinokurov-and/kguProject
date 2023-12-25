@@ -1,0 +1,10 @@
+.backButton {
+  background-color:rgba(69, 111, 155, 0.411);
+  color:rgb(0, 57, 117);
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
