@@ -1,8 +1,9 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
-import { Para } from './components/Paratime/Paratime';
+import Para from './components/Paratime/Paratime';
 import { Header } from './components/Header';
 import { SocialIcons } from './components/SocialIcons';
+import { ButtonFormatTime } from './components/Paratime/ButtonFormatTime';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         </div>
       <SocialIcons />
       </Header>
-      <Para number={6}/>
+      <Para number={1}/>         
+      <ButtonFormatTime></ButtonFormatTime>
       <Footer />
     </div>
   );
