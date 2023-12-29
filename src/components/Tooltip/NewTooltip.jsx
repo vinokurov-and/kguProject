@@ -1,6 +1,4 @@
-import { Tooltip } from '@mui/material';
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 
 export const NewTooltip = ({ text, children }) => {
   const [isTooltipVisible, setTooltipVisible] = useState(false);
@@ -39,9 +37,4 @@ export const NewTooltip = ({ text, children }) => {
       )}
     </div>
   );
-};
-
-Tooltip.propTypes = {
-  text: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
 };
