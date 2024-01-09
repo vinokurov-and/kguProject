@@ -1,5 +1,5 @@
-import { Typography } from "@mui/material";
-import { ButtonFormatTime } from "./ButtonFormatTime";
+import { Button } from "@mui/material";
+import { useState } from "react";
 
 const obj12 = { //Если выбран 12 часовой формат времени
     1: {
@@ -63,23 +63,27 @@ const obj12 = { //Если выбран 12 часовой формат врем�
     }
 
 export const Para = ({ number }) => { //Вывод времени в зависимости от выбранного формата
-       
-    const FormatTime = document.getElementById("formatTime");
-    if (FormatTime.textContent == "24")
-    {
-      return (
-            <div>
-                <Typography>{obj24[number].start} - {obj24[number].end}</Typography>
-            </div>
-            );
+    let format24 = true 
+    let [time1, setTime1] = useState(obj24[number].start + ' - ' + obj24[number].end)
+ 
+    function SwithFormatTime(){
+        if (format24 == true){
+            setTime1(time1 = obj12[number].start + ' - ' + obj12[number].end)
+            format24 = false
+        }
+        else{
+            setTime1(obj24[number].start + ' - ' + obj24[number].end)   
+            format24 = true 
+        }
     }
-    else{       
-        return (
-            <div>
-                <Typography>{obj12[number].start} - {obj12[number].end}</Typography>
-            </div>
-            );
-    }
+
+    return (
+                <div>
+                    <Button size="small" variant="outlined" onClick={SwithFormatTime}>{time1}</Button>
+                </div>
+                );
+    
+    
 };
 
 export default Para;
