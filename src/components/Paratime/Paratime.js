@@ -61,9 +61,9 @@ const obj12 = { //Если выбран 12 часовой формат врем�
             end: '21:00'
         }
     }
+let format24 = true 
 
 export const Para = ({ number }) => { //Вывод времени в зависимости от выбранного формата
-    let format24 = true 
     let [time1, setTime1] = useState(obj24[number].start + ' - ' + obj24[number].end)
  
     function SwithFormatTime(){
