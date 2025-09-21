@@ -6,6 +6,7 @@ import { Main } from './components/Main';
 import { Logo } from './components/Logo'
 import { SocialIcons } from './components/SocialIcons';
 import { CurrentDay } from './components/CurrentDay/CurrentDay'
+import { Descriprion } from './components/Description'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      </Main>
      
       <Header>
+      <Descriprion />
       <Logo/>     
       <SocialIcons />
       </Header>
